@@ -30,7 +30,6 @@ Package.onUse(function(api) {
 
   api.imply([
     'accounts-base',
-    'softwarerero:accounts-t9n@1.3.3',
   ], ['client', 'server']);
 
   api.imply([
